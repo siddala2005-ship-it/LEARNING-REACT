@@ -1,10 +1,15 @@
 import Product from "./product.jsx";
 function ProductTab(){
+    //setiing default values 
+     let options=["durable","strong","efficient"];
+     let options1={a:"hi-tech",b:"new"};
     return(
+       
         <>
-       <Product/>
-       <Product/>
-       <Product/>
+       <Product title="laptop" price={20000} features={options}/>
+       <Product title="pen" price={20000} features={options1.a}/>
+       
+       <Product title="pencil"/>
 
         </>
     )

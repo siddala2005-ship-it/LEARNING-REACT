@@ -2,6 +2,7 @@ lets us start with react
 we are using react with vite 
 for importing the default vite and react app 
 we need to "npm create vite@latest":it will install all the node modelus and require things
+THEN FOR RUNNING THE APP USE"NPM RUN DEV AFTER CD FOLDER NAME"
 step 3:
 writing markup in jsx:
 1.return a single root element 
@@ -13,3 +14,10 @@ writing markup in jsx:
  fragment let you group a list of children without adding extra nodes to the DOM BY USING <> AND </> INSTEAD OF <DIV> AND</DIV>
 
  we can use {} for writing pure javascript 
+ next: using of props
+       setting defaults values 
+
+CONITIONAL STATMENTS IN REACT:
+
+dynamic styling component:
+ 

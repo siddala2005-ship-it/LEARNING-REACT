@@ -6,7 +6,7 @@ import ProductTab from "./ProductTab";
 
 
 
-function App() {
+function App(props) {
 
   return (
     //with fragment  for removing extra node
