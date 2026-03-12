@@ -2,11 +2,13 @@
 import './App.css'
 import Title from './Title.jsx';
 import ProductTab from "./ProductTab";
+import UserTab from "./UserTab.jsx"
 
 
 
 
-function App(props) {
+
+function App() {
 
   return (
     //with fragment  for removing extra node
@@ -19,14 +21,17 @@ function App(props) {
       <p>2*2={2*2} here curlybraces  is used  for returning pure javascript</p>
       <p>using product tab</p>
       <ProductTab/>
-    </div>
-  
-  )
-  
+      <h1>activity</h1>
+      <UserTab/>
+        
+      </div>
     
-  
-  
+    )
     
-}
+      
+    
+    
+      
+  }
 
-export default App
+  export default App
