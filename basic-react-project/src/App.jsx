@@ -3,8 +3,8 @@ import './App.css'
 import Title from './Title.jsx';
 import ProductTab from "./ProductTab";
 import UserTab from "./UserTab.jsx"
-
-
+import Button from "./Button"
+import Form from "./Form.jsx"
 
 
 
@@ -23,7 +23,9 @@ function App() {
       <ProductTab/>
       <h1>activity</h1>
       <UserTab/>
-        
+       <Button/>
+       <p><b>OBJECT HANDLING</b></p>
+       <Form/>
       </div>
     
     )
